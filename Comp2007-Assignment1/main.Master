@@ -7,6 +7,15 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <!-- Normalize CSS -->
+    <link href="styles/normalize.css" rel="stylesheet" />
+    <!-- Bootstrap minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <!-- Optional Bootstrap theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+    <!--Style Sheet-->
+    <link href="styles/styles.css" rel="stylesheet" />
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,5 +25,9 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+
+    <!-- Javascript -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>
