@@ -17,7 +17,7 @@ namespace Comp2007_Assignment1
         protected void btnSummary_Click(object sender, EventArgs e)
         {
             int gamesWonInt, game1Value, game2Value;
-            game1Value = Convert.ToInt32(rblResultG1.SelectedValue);
+            game1Value = Convert.ToInt32(rblResultsG1.SelectedValue);
 
             panelSummary.Visible = true;
             lblGamesWon.Text = "Games Won: " + game1Value;
