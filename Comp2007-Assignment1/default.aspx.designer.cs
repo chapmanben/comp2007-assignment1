@@ -22,13 +22,13 @@ namespace Comp2007_Assignment1 {
         protected global::System.Web.UI.WebControls.Label lblResultG1;
         
         /// <summary>
-        /// rblResultGame1 control.
+        /// rblResultG1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblResultGame1;
+        protected global::System.Web.UI.WebControls.RadioButtonList rblResultG1;
         
         /// <summary>
         /// lblPointsScoredG1 control.
@@ -85,94 +85,94 @@ namespace Comp2007_Assignment1 {
         protected global::System.Web.UI.WebControls.TextBox txtSpectatorsG1;
         
         /// <summary>
-        /// Label1 control.
+        /// lblGame2Results control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblGame2Results;
         
         /// <summary>
-        /// RadioButtonList1 control.
+        /// rblResultsG2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList rblResultsG2;
         
         /// <summary>
-        /// Label2 control.
+        /// lblPointsScoredG2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblPointsScoredG2;
         
         /// <summary>
-        /// TextBox1 control.
+        /// txtPointsScoredG2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtPointsScoredG2;
         
         /// <summary>
-        /// Label3 control.
+        /// lblPointsAllowedG2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label lblPointsAllowedG2;
         
         /// <summary>
-        /// TextBox2 control.
+        /// txtPointsAllowedG2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtPointsAllowedG2;
         
         /// <summary>
-        /// Label4 control.
+        /// lblSpectatorsG2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Label lblSpectatorsG2;
         
         /// <summary>
-        /// TextBox3 control.
+        /// txtSpectatorsG2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox txtSpectatorsG2;
         
         /// <summary>
-        /// Label5 control.
+        /// lblGame3Results control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Label lblGame3Results;
         
         /// <summary>
-        /// RadioButtonList2 control.
+        /// rblResultsG3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList2;
+        protected global::System.Web.UI.WebControls.RadioButtonList rblResultsG3;
         
         /// <summary>
         /// Label6 control.
@@ -238,13 +238,13 @@ namespace Comp2007_Assignment1 {
         protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
-        /// RadioButtonList3 control.
+        /// rblResultsG4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList3;
+        protected global::System.Web.UI.WebControls.RadioButtonList rblResultsG4;
         
         /// <summary>
         /// Label10 control.

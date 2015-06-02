@@ -4,11 +4,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!--Game 1 Inputs -->
+           <asp:Label ID="lblResultG1" runat="server" Text="Game 1 Result:"></asp:Label>
     <div>
-        <asp:Label ID="lblResultG1" runat="server" Text="Game 1 Result:"></asp:Label>
-        <asp:RadioButtonList ID="rblResultGame1" runat="server">
-            <asp:ListItem Value="G1Win" Text="Win" />
-            <asp:ListItem Value="G1Loss" Text="Loss" />
+        <asp:RadioButtonList ID="rblResultG1" runat="server">
+            <asp:ListItem Value="1" Text="Win" />
+            <asp:ListItem Value="0" Text="Loss" />
         </asp:RadioButtonList>
     </div>
     <div>
@@ -25,31 +25,31 @@
     </div>
 
     <!--Game 2 Inputs -->
+    <asp:Label ID="lblGame2Results" runat="server" Text="Game 2 Result:"></asp:Label>
     <div>
-        <asp:Label ID="Label1" runat="server" Text="Game 2 Result:"></asp:Label>
-        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-            <asp:ListItem Value="G1Win" Text="Win" />
-            <asp:ListItem Value="G1Loss" Text="Loss" />
+        <asp:RadioButtonList ID="rblResultsG2" runat="server">
+            <asp:ListItem Value='1' Text="Win" />
+            <asp:ListItem Value="0" Text="Loss" />
         </asp:RadioButtonList>
     </div>
     <div>
-        <asp:Label ID="Label2" runat="server" Text="Points Scored"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:Label ID="lblPointsScoredG2" runat="server" Text="Points Scored"></asp:Label>
+        <asp:TextBox ID="txtPointsScoredG2" runat="server"></asp:TextBox>
     </div>
     <div>
-        <asp:Label ID="Label3" runat="server" Text="Points Allowed"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:Label ID="lblPointsAllowedG2" runat="server" Text="Points Allowed"></asp:Label>
+        <asp:TextBox ID="txtPointsAllowedG2" runat="server"></asp:TextBox>
     </div>
     <div>
-        <asp:Label ID="Label4" runat="server" Text="Number Of Spectators"></asp:Label>
-        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        <asp:Label ID="lblSpectatorsG2" runat="server" Text="Number Of Spectators"></asp:Label>
+        <asp:TextBox ID="txtSpectatorsG2" runat="server"></asp:TextBox>
     </div>
     <!--Game 3 Inputs -->
+        <asp:Label ID="lblGame3Results" runat="server" Text="Game 3 Result:"></asp:Label>
     <div>
-        <asp:Label ID="Label5" runat="server" Text="Game 3 Result:"></asp:Label>
-        <asp:RadioButtonList ID="RadioButtonList2" runat="server">
-            <asp:ListItem Value="G1Win" Text="Win" />
-            <asp:ListItem Value="G1Loss" Text="Loss" />
+        <asp:RadioButtonList ID="rblResultsG3" runat="server">
+            <asp:ListItem Value="1" Text="Win" />
+            <asp:ListItem Value="0" Text="Loss" />
         </asp:RadioButtonList>
     </div>
     <div>
@@ -67,9 +67,9 @@
     <!--Game 4 Inputs -->
     <div>
         <asp:Label ID="Label9" runat="server" Text="Game 4 Result:"></asp:Label>
-        <asp:RadioButtonList ID="RadioButtonList3" runat="server">
-            <asp:ListItem Value="G1Win" Text="Win" />
-            <asp:ListItem Value="G1Loss" Text="Loss" />
+        <asp:RadioButtonList ID="rblResultsG4" runat="server">
+            <asp:ListItem Value="1" Text="Win" />
+            <asp:ListItem Value="0" Text="Loss" />
         </asp:RadioButtonList>
     </div>
     <div>
