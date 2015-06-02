@@ -15,16 +15,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
     <!--Style Sheet-->
     <link href="styles/styles.css" rel="stylesheet" />
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            
-
-
         </asp:ContentPlaceHolder>
     </div>
     </form>
