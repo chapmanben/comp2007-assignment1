@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!--Game 1 Inputs -->
+    <!--Game 1 Inputs & Validation -->
 
     <div>
         <asp:Label ID="lblGame1Results" runat="server" Text="Game 1 Result:"></asp:Label>
@@ -24,7 +24,7 @@
         <asp:TextBox ID="txtPointsAllowedG1" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ErrorMessage="Required. How Many Points Did You Score?" ControlToValidate="txtPointsAllowedG1"></asp:RequiredFieldValidator>
         <asp:RangeValidator ID="RangeValidator5" runat="server" ErrorMessage="Enter a numeric number between 0 and 100." ControlToValidate="txtPointsAllowedG1" Type="Integer" MinimumValue="0" MaximumValue="100"></asp:RangeValidator>
-        <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Values Cannot Match. No Ties/Draws Allowed." ControlToValidate="txtPointsScoredG1" ControlToCompare="txtPointsAllowedG1" Operator="Equal" Type="Integer" ></asp:CompareValidator>
+        <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Values Cannot Match. No Ties/Draws Allowed." ControlToValidate="txtPointsScoredG1" ControlToCompare="txtPointsAllowedG1" Operator="NotEqual" Type="Integer" ></asp:CompareValidator>
     </div>
     <div>
         <asp:Label ID="lblSpectatorsG1" runat="server" Text="Number Of Spectators"></asp:Label>
@@ -33,7 +33,7 @@
         <asp:RangeValidator ID="RangeValidator12" runat="server" ErrorMessage="Enter How Many Spectators, Between 0 and 100." ControlToValidate="txtSpectatorsG1" Type="Integer" MinimumValue="0" MaximumValue="100"></asp:RangeValidator>
     </div>
 
-    <!--Game 2 Inputs -->
+    <!--Game 2 Inputs & Validation -->
 
     <div>
         <asp:Label ID="lblGame2Results" runat="server" Text="Game 2 Result:"></asp:Label>
@@ -55,8 +55,10 @@
         <asp:TextBox ID="txtPointsAllowedG2" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ErrorMessage="Required. How Many Points Did You Score?" ControlToValidate="txtPointsAllowedG2"></asp:RequiredFieldValidator>
         <asp:RangeValidator ID="RangeValidator6" runat="server" ErrorMessage="Enter a numeric number between 0 and 100." ControlToValidate="txtPointsAllowedG2" Type="Integer" MinimumValue="0" MaximumValue="100"></asp:RangeValidator>
+        <asp:CompareValidator ID="CompareValidator2" runat="server" ErrorMessage="Values Cannot Match. No Ties/Draws Allowed." ControlToValidate="txtPointsScoredG2" ControlToCompare="txtPointsAllowedG2" Operator="NotEqual" Type="Integer" ></asp:CompareValidator>
 
-    </div>
+   
+         </div>
     <div>
         <asp:Label ID="lblSpectatorsG2" runat="server" Text="Number Of Spectators"></asp:Label>
         <asp:TextBox ID="txtSpectatorsG2" runat="server"></asp:TextBox>
@@ -64,7 +66,7 @@
         <asp:RangeValidator ID="RangeValidator11" runat="server" ErrorMessage="Enter How Many Spectators, Between 0 and 100." ControlToValidate="txtSpectatorsG2" Type="Integer" MinimumValue="0" MaximumValue="100"></asp:RangeValidator>
     </div>
 
-    <!--Game 3 Inputs -->
+    <!--Game 3 Inputs & Validation -->
     <asp:Label ID="lblGame3Results" runat="server" Text="Game 3 Result:"></asp:Label>
     <div>
         <asp:RadioButtonList ID="rblResultsG3" runat="server">
@@ -86,6 +88,7 @@
         <asp:TextBox ID="txtPointsAllowedG3" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ErrorMessage="Required. How Many Points Did You Score?" ControlToValidate="txtPointsAllowedG3"></asp:RequiredFieldValidator>
         <asp:RangeValidator ID="RangeValidator7" runat="server" ErrorMessage="Enter a numeric number between 0 and 100." ControlToValidate="txtPointsAllowedG3" Type="Integer" MinimumValue="0" MaximumValue="100"></asp:RangeValidator>
+        <asp:CompareValidator ID="CompareValidator3" runat="server" ErrorMessage="Values Cannot Match. No Ties/Draws Allowed." ControlToValidate="txtPointsScoredG3" ControlToCompare="txtPointsAllowedG3" Operator="NotEqual" Type="Integer" ></asp:CompareValidator>
 
     </div>
     <div>
@@ -95,7 +98,7 @@
         <asp:RangeValidator ID="RangeValidator10" runat="server" ErrorMessage="Enter How Many Spectators, Between 0 and 100." ControlToValidate="txtSpectatorsG3" Type="Integer" MinimumValue="0" MaximumValue="100"></asp:RangeValidator>
     </div>
 
-    <!--Game 4 Inputs -->
+    <!--Game 4 Inputs & Validation -->
     <div>
         <asp:Label ID="lblGame4Results" runat="server" Text="Game 4 Result:"></asp:Label>
         <asp:RadioButtonList ID="rblResultsG4" runat="server">
@@ -118,6 +121,7 @@
         <asp:TextBox ID="txtPointsAllowedG4" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ErrorMessage="Required. How Many Points Did You Score?" ControlToValidate="txtPointsAllowedG4"></asp:RequiredFieldValidator>
         <asp:RangeValidator ID="RangeValidator8" runat="server" ErrorMessage="Enter a numeric number between 0 and 100." ControlToValidate="txtPointsAllowedG4" Type="Integer" MinimumValue="0" MaximumValue="100"></asp:RangeValidator>
+        <asp:CompareValidator ID="CompareValidator4" runat="server" ErrorMessage="Values Cannot Match. No Ties/Draws Allowed." ControlToValidate="txtPointsScoredG4" ControlToCompare="txtPointsAllowedG4" Operator="NotEqual" Type="Integer" ></asp:CompareValidator>
 
     </div>
 
@@ -130,6 +134,7 @@
 
     <asp:Button ID="btnSummary" runat="server" Text="Summary" OnClick="btnSummary_Click" />
 
+    <!-- Summary Panel -->
     <asp:Panel ID="panelSummary" runat="server">
         <asp:Label ID="lblGameSummary" runat="server" Text="Game Summary"></asp:Label>
         <asp:Label ID="lblGamesWon" runat="server" Text=""></asp:Label>

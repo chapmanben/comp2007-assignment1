@@ -256,6 +256,15 @@ namespace Comp2007_Assignment1 {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator6;
         
         /// <summary>
+        /// CompareValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator2;
+        
+        /// <summary>
         /// lblSpectatorsG2 control.
         /// </summary>
         /// <remarks>
@@ -391,6 +400,15 @@ namespace Comp2007_Assignment1 {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator7;
         
         /// <summary>
+        /// CompareValidator3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator3;
+        
+        /// <summary>
         /// lblSpectatorsG3 control.
         /// </summary>
         /// <remarks>
@@ -524,6 +542,15 @@ namespace Comp2007_Assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator8;
+        
+        /// <summary>
+        /// CompareValidator4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator4;
         
         /// <summary>
         /// lblSpectatorsG4 control.
