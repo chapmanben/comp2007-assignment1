@@ -11,7 +11,12 @@ namespace Comp2007_Assignment1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            panelSummary.Visible = false;
+        }
 
+        protected void btnSummary_Click(object sender, EventArgs e)
+        {
+            panelSummary.Visible = true;
         }
     }
 }
